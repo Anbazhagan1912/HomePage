@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+:root{
+    --primaryColor:#182f58;
+    /* --seconda */
+}
+
+a{
+    font-size: 14px;
+}
+
+.navContainer{
+    background-color: var(--primaryColor);
+}
+
+#searchInput{
+     /* background:red; */
+     width: 250px;
+     border-radius: 5px;
+     background: transparent;
+     color: aliceblue;
+     box-shadow: none;
+     border: 1px solid #a9bbbb;
+}
+
+/* #se */
+
+#searchBtn{
+    font-size: 14px;
+    background-color: transparent;
+    color:#a9bbbb ;
+    border: 1px solid #a9bbbb;
+}
+
+.landingPage{
+    overflow-x: hidden;
+}
+
+.landingPageImage{
+    height: 100vh;
+    background-image: url("./assets/Naanmudhalvan.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.landingPageImage::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--primaryColor);
+    opacity: 0.3;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primaryColor);
+}
+
+/* #fi */
